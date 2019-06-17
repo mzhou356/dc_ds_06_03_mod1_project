@@ -6,6 +6,7 @@ This is a temporary script file.
 """
 
 import pandas as pd 
+from scipy import stats
 
 def drop_columns(df, *args):
     '''
@@ -33,7 +34,19 @@ def create_masks(df, cols, conds, relations):
     for i,col in enumerate(cols):
         mask = relations[i](df[col], conds[i])
         masks.append(mask)
-    return masks        
+    return masks  
+
+
+def r2(x, y):
+    '''
+    input:
+    x: df column for x axis
+    y: df column for y axis
+    return:
+    r2 for regression
+    '''
+    return stats.pearsonr(x, y)[0] ** 2
+    
 def split_rows(df, col1, col2, sep):
     '''
     df: dataframe to use
@@ -66,17 +79,7 @@ def drop_repeatrows(df, col):
     '''
     df.drop_duplicates(subset = col, inplace = True)
   
-<<<<<<< Updated upstream
-=======
-def drop_columns(df, *args):
-    '''
-    *args: flexible args as a list of strings 'str1','str2', etc
-    returns the dataframe with columns specified dropped 
-    '''
-    cols = [col for col in args]
-    df.drop(columns = cols, inplace = True)
->>>>>>> Stashed changes
-
+    
 def rename_columns(df, dict_map):
     '''
     df to use
@@ -117,27 +120,6 @@ def drop_NA(df, cols):
     '''
     df.dropna(subset = cols, inplace = True)
     
-
-<<<<<<< Updated upstream
-
-=======
-def create_masks(df, cols, conds, relations):
-    '''
-    df: df to use
-    cols: a list of cols ['col1','col2', etc.]
-    cods: a list of conds to meet [cond1, cond2, etc.]
-    relations: a list of np condition ['np.equal', 'np.greater', ..]
-    get all np relation by searching np.equal 
-    return a list of masks and access each masks with list index 
-    
-    '''
-    # relations a np numpy operator 
-    masks = []
-    for i,col in enumerate(cols):
-        mask = relations[i](df[col], conds[i])
-        masks.append(mask)
-    return masks        
->>>>>>> Stashed changes
 
 def create_list(df, col, sep):
     '''
