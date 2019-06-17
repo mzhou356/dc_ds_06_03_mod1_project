@@ -24,4 +24,7 @@
 
 ## Summary of files in the repository
 
+## Presentation
+[Google Slide](https://docs.google.com/presentation/d/1RW8_57sHUw1es6_lOZlN27RJTAgQW4ZXbsMHGTTiZh0/edit?usp=sharing)
+
 
