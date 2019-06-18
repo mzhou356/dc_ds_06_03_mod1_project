@@ -14,6 +14,8 @@
 -- Seasonalities
 -- Directors/Writers
 -- Actors/actresses
+-- Length of movie
+-- Production budget 
 - Provide a set of slides to present
 - Provide Jupyter Notebook for technical audience
 - Provide Jupyter Notebook for non-technical audience
