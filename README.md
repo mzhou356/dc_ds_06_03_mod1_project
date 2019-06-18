@@ -13,7 +13,8 @@
 -- Genre
 -- Seasonalities
 -- Actors/actresses
--- Movie length in min 
+-- Length of movie
+-- Production budget 
 - Provide a set of slides to present
 - Provide Jupyter Notebook for technical audience
 - Provide Jupyter Notebook for non-technical audience
@@ -23,6 +24,7 @@
 - Keita as a checker
 
 ## Summary of files in the repository
+- data folder (zipped datasets) with pickle files for Mod1 NonTechnical Jupyter Notebook.ipynb
 - Mod1 NonTechnical Jupyter NoteBook.ipynb:   
 contains 4 visualizations for non technical viewers. It contains proxy regression plot, top 6 genre monthly popularity boxplot, popularity distribution for different num of known performers, and popularity distribution for 4 binned movie runtimes in mins. 
 - Movie Project-Detailed Data Processing .ipynb:  
