@@ -6,17 +6,17 @@
 
 ## Goals
 ### Provide a business proposal for a new movie business at Microsoft
-- Determine the dataset and target variables
--- Clean up the data
--- Find a proxy for gross revenues to have larger coverage of movies
-- Find what are characteristics of best selling movies
--- Genre
--- Seasonalities
--- Actors/actresses
--- Length of movie
--- Production budget 
+- Determine the dataset and target variables . 
+- Clean up the data 
+- Find a proxy for gross revenues to have larger coverage of movies 
+- Find what are the characteristics of best selling movies: 
+  * Genre 
+  * Seasonalities
+  * Actors/actresses
+  * Length of movie 
+  * Production budget   
 - Provide a set of slides to present
-- Provide Jupyter Notebook for technical audience
+- Provide Jupyter Notebook for technical audience with an emphasis on readability
 - Detailed data cleaning and helper function .py files 
 
 ## Responsibilities
