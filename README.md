@@ -17,19 +17,20 @@
 -- Production budget 
 - Provide a set of slides to present
 - Provide Jupyter Notebook for technical audience
-- Provide Jupyter Notebook for non-technical audience
+- Detailed data cleaning and helper function .py files 
 
 ## Responsibilities
-- Mindy as a runner
-- Keita as a checker
+- Mindy: data merging, revenue proxy, ideal number of known actor and actress, and ideal movie duration 
+- Keita: revenue proxy, production budget, genre, seasonalities 
 
 ## Summary of files in the repository
-- data folder (zipped datasets) with pickle files for Mod1 NonTechnical Jupyter Notebook.ipynb
-- Mod1 NonTechnical Jupyter NoteBook.ipynb:   
-contains 4 visualizations for non technical viewers. It contains proxy regression plot, top 6 genre monthly popularity boxplot, popularity distribution for different num of known performers, and popularity distribution for 4 binned movie runtimes in mins. 
-- Movie Project-Detailed Data Processing .ipynb:  
+* data folder:  
+contains original zipped data files and pickle files for Mod1_Technical_Jupyter_Notebook.ipynb
+* Mod1_Technical_Jupyter_Notebook.ipynb:  
+contains 8 visualizations for both technical and non technical viewers. It contains proxy regression plot, genre pie chart,  top 6 genre monthly popularity boxplot, month popularity box chart, genre popularity box chart, popularity distribution for different num of known performers, popularity distribution for 4 binned movie runtimes in mins, and boxplot for binned log scale budget by log revenue 
+* Movie_Project_Detailed_Data_Processing.py:  
 contains detailed dataframe processing using 4 datasets provided by the project. 
-- helperfunction.py:  
+* helperfunction.py:  
 contains helper functions with doc strings to help speed up data merging and cleaning process.
 
 ## Presentation
