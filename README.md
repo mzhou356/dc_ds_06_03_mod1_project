@@ -28,6 +28,8 @@
 contains original zipped data files and pickle files for Mod1_Technical_Jupyter_Notebook.ipynb
 * Mod1_Technical_Jupyter_Notebook.ipynb:  
 contains 8 visualizations for both technical and non technical viewers. It contains proxy regression plot, genre pie chart,  top 6 genre monthly popularity boxplot, month popularity box chart, genre popularity box chart, popularity distribution for different num of known performers, popularity distribution for 4 binned movie runtimes in mins, and boxplot for binned log scale budget by log revenue 
+* Mod1_Project_June_2019_Mindy_Keita.pdf:  
+pdf version of the google presenation slide 
 * Movie_Project_Detailed_Data_Processing.py:  
 contains detailed dataframe processing using 4 datasets provided by the project. 
 * helperfunction.py:  
